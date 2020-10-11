@@ -1,0 +1,20 @@
+.forecast {
+  padding: 25px;
+  background-color: #d6eaf0;
+  border-radius: 5px;
+  text-align: center;
+  color: $mainFont;
+
+  * {
+    margin: 10px;
+  }
+  img {
+    width: 150px;
+  }
+  svg {
+    cursor: pointer;
+  }
+  svg.fav-fill {
+    color: #c2b615;
+  }
+}

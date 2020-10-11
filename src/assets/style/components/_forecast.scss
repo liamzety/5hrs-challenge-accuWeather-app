@@ -1,0 +1,9 @@
+.forecast-container {
+  min-height: 80vh;
+  .headline {
+    h3 {
+      text-transform: capitalize;
+    }
+    padding: 25px;
+  }
+}

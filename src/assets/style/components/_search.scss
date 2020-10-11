@@ -1,0 +1,49 @@
+.search {
+  min-height: 100px;
+  input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid gainsboro;
+    color: gainsboro;
+    background: transparent;
+
+    &::placeholder {
+      color: #c7c4c4;
+      transition: 0.3s;
+    }
+    &:focus {
+      &::placeholder {
+        color: #f1f1f1;
+      }
+      + svg {
+        color: #f1f1f1;
+      }
+    }
+  }
+
+  svg {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #c7c4c4;
+    font-size: 25px;
+    transition: 0.3s;
+  }
+  .auto-complete-modal {
+    background-color: #f1f1f1;
+    padding: 15px;
+    box-shadow: 0px 0px 6px 0px #0e594c;
+    right: -45px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 999;
+    p {
+      color: #333333;
+      cursor: pointer;
+      &:hover {
+        background-color: lightcoral;
+      }
+    }
+  }
+}

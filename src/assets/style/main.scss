@@ -1,0 +1,20 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/typography';
+@import './basics/animations';
+// VIEWS
+@import './views/home';
+@import './views/fav';
+
+// COMPONENTS
+@import './components/forecast';
+@import './components/footer';
+@import './components/nav';
+@import './components/search';
+@import './components/forecast-list';
+@import './components/forecast-preview';
+
+//MODALS
+@import './modals/screen-modal';

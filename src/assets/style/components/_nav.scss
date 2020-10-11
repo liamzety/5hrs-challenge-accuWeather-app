@@ -1,0 +1,29 @@
+.nav {
+  min-height: 20vh;
+  img {
+    margin-right: 80px;
+  }
+  a {
+    margin-right: 40px;
+  }
+  .container {
+    min-height: 20vh;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    transform: rotate(90deg);
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  @media (max-width: 800px) {
+    a,
+    button {
+      display: none;
+    }
+    .hamburger {
+      display: initial;
+    }
+  }
+}
